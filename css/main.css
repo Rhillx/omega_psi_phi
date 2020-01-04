@@ -1,0 +1,84 @@
+/* Purple */
+#402a69
+/* Gold */
+#e9bb29
+/* Neutral */
+#dbdbdb
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #d81313;
+}
+#nav-bar
+{
+    z-index: 10;
+}
+nav{
+    background-image: linear-gradient(#402a69, #ebebeb );
+    padding: 0 !important;
+}
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+ }
+ .navbar-nav li
+ {
+     padding: 0 10px;
+ }
+.navbar-nav li a
+{
+    color: #e9bb29 !important;
+    font-weight: 400;
+    /* float: right; */
+    text-align: center !important;
+}
+.nav-title{
+    color: #e9bb29 !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.fa-bars{
+    color: #e9bb29 !important;
+    font-size: 30px;
+    outline: none;
+}
+.section-1
+{
+    min-height: 50vh;
+    background-color: #ebebeb;
+    /* background-image: url('/images/images.jpg'); */
+}
+
+
+.section-2
+{
+    background-color: red;
+    min-height: 75vh;
+}
+
+.section-3
+{
+    /* background-color: seagreen; */
+    min-height: 75vh;
+}
+.section-4
+{
+    background-color: slateblue;
+    min-height: 50vh;
+}
+.section-5
+{
+    /* background-color: lawngreen; */
+    min-height: 80vh;
+}
+.section-6
+{
+    background-color: slategray;
+    min-height: 50vh;
+}
+
