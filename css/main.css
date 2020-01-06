@@ -1,7 +1,9 @@
 /* Purple */
 #402a69
+#8e0cde
 /* Gold */
 #e9bb29
+#f8cb04
 /* Neutral */
 #dbdbdb
 
@@ -11,15 +13,27 @@
 }
 body
 {
-    background-color: #d81313;
+    background-color: #ebebeb;
+}
+html
+{
+    /* overflow: hidden; */
 }
 #nav-bar
 {
-    z-index: 10;
+    z-index: -1;
+    /* opacity: .5; */
+   
 }
 nav{
-    background-image: linear-gradient(#402a69, #ebebeb );
+    /* background-image: url('/images/purpleRain.jpg'); */
+    background-color: #e9bb29;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0 !important;
+     padding-top: 30px !important;
+     z-index: 1;
+     opacity: .9;
 }
 .navbar-brand img {
     height: 40px;
@@ -28,57 +42,323 @@ nav{
  .navbar-nav li
  {
      padding: 0 10px;
+     z-index: 1;
  }
 .navbar-nav li a
 {
-    color: #e9bb29 !important;
-    font-weight: 400;
-    /* float: right; */
+    color: #402a69 !important;
+    font-weight: 600;
+    float: right;
     text-align: center !important;
+    z-index: 1;
 }
 .nav-title{
-    color: #e9bb29 !important;
+    color: #402a69 !important;
+    font-weight: 500;
 }
 .navbar-toggler{
     outline: none !important;
+    text-decoration: none;
+    border: none;
 }
 .fa-bars{
-    color: #e9bb29 !important;
+    color: #402a69 !important;
     font-size: 30px;
     outline: none;
 }
+/* ------------------END NAV------------------- */
+
+/* ---------------------HOME SECTION-------------- */
 .section-1
 {
-    min-height: 50vh;
-    background-color: #ebebeb;
-    /* background-image: url('/images/images.jpg'); */
+    min-height: 100vh;
+    background-image: url('/images/purpleRain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
 }
 
 
+.section-1 h1
+{
+    color: #e9bb29;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 100px;
+    letter-spacing: 8px;
+    
+}
+.section-1 p
+{
+    color: #e9bb29;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.social-media
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.social-media a
+{
+    text-decoration: none;
+    color: #e9bb29;
+    /* padding: 0 20px; */
+    margin-top: 15px;
+}
+/* ------------------END HOME------------------- */
+
+/*------------------------- ANNOUNCEMENTS------------ */
+.messages
+{
+    min-height: 25px;
+    /* opacity: .5; */
+    background-color: #e9bb29;
+}
+
+.messages h5
+{
+    color: #402a69;
+    z-index: 2;
+}
+
+
+/* -------------ABOUT---------------------- */
 .section-2
 {
-    background-color: red;
-    min-height: 75vh;
+    /* background-color: #fff; */
+    position: relative;
+    min-height:100vh;
 }
+.section-2 h2
+{
+    color: #402a69;
+    z-index: 2;
+    text-align: center;
+}
+.section-2 p
+{
+    color: #402a69;
+}
+.video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+.color-overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    opacity: .5;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.promo div
+{
+    min-height: 40vh;
+    color: #e9bb29;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-image: url('/images/1911.jfif');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    background-position: center;
+
+}
+
+
+
 
 .section-3
 {
     /* background-color: seagreen; */
-    min-height: 75vh;
+    min-height: 100vh;
+    /* background-image: linear-gradient(#ebebeb, #402a69); */
+    /* z-index: -1; */
 }
+.section-3 h2
+{
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+    margin: 0;
+    color: #402a69;
+    /* background-image: url("/images/purpleSmoke.jpg"); */
+    /* background-attachment: fixed; */
+}
+/* .wave
+{
+    background-image: url('/images/purpleSmoke.jpg');
+    background-attachment: fixed;
+    min-height: 20px;
+} */
+.event
+{
+    width: 200px;
+    height: 200px;
+    background-color: #402a69;
+    color: #f8cb04;
+}
+.event button
+{
+    float: right;
+    color: #402a69;
+}
+
+.info button
+{
+    color: #e9bb29;
+    background-color: #402a69;
+}
+
+/* ------------MEMBERS------------------ */
+
 .section-4
 {
-    background-color: slateblue;
-    min-height: 50vh;
+    /* background-image: url('/images/purpleSmoke.jpg'); */
+    background-attachment: fixed;
+    min-height: 75vh;
+    margin: 0;
+    background-color: #402a69;
+    overflow: hidden;
 }
+.section-4 h2
+{
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+    margin: 0;
+    color: #f8cb04;
+    /* background-image: linear-gradient(#fff, #402a69); */
+}
+.section-4 h6
+{
+    color: #402a69;
+}
+
+.profile
+{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    /* opacity: .5; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    padding: 0;
+    text-align: center;
+    border: #e9bb29 2px solid;
+}
+
+.section-4 img
+{
+    border-radius: 100%;
+    border: #e9bb29 2px solid;
+}
+
+
+/* -------------END ---------------------- */
+
+
+/* ------------GALLERY----------------------- */
 .section-5
 {
     /* background-color: lawngreen; */
-    min-height: 80vh;
+    min-height: 50vh;
+    flex: 1 1 80%;
+    margin: 0;
 }
+.section-5 h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(#402a69,#e9bb29); */
+    background-color: #e9bb29;
+    margin: 0;
+    color: #402a69;
+    padding: 10px;
+}
+.gallery
+{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    background-color: #e9bb29;
+}
+.gallery-item
+{
+    background-color: #e9bb29;
+    color: #402a69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-item.sm 
+{
+    grid-row: span 1;
+    grid-column: span 1;
+}
+.gallery-item.md
+{
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.gallery-item.lg
+{
+    grid-row: span 3;
+    grid-column: span 3;
+}
+.gallery-item.tl 
+{
+    grid-row: span 2;
+    grid-column: span 3;
+}
+.gallery-item.wd 
+{
+    grid-row: span 3;
+    grid-column: span 2;
+}
+.gallery-item.off
+{
+    grid-row: 2;
+    grid-column: 1;
+}
+/* ----------------END------------------------- */
+
+
+/* ---------------FOOTER----------------------- */
 .section-6
 {
-    background-color: slategray;
+    background-image: linear-gradient(#fff, #fff, #402a69);
     min-height: 50vh;
 }
+.logo-foot
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
